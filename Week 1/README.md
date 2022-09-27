@@ -89,6 +89,103 @@ git merge origin
 ```
 
 ## HTML
+- HTML atau *Hypertext Markup Language*, digunakan untuk menampilkan konten pada browser
+- Tools yang digunakan untuk membuat HTML adalah Browser dan Code Editor
+### A. Struktur HTML
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+<body>
+</body>
+</html>
+```
+- Element HTML
+    - Opening tag: `<p>`
+    - Closing tag: `</p>`
+- Atribut pada HTML adalah properties dari sebuah HTML Element. contohnya id, class, name
+- HTML Comment, digunakan digunakan untuk menjelaskan line code tertentu namun, comment ini tidak dapat di eksekusi atau tidak dapat mengubah codingan hanya sebagai catatan bagi proggrammer
+`<!--  -->`
+- Membuat Tabel
+```
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <table border="1">
+        <thead>
+            <tr>
+                <td><b>Nama</b></td>
+                <td><b>Umur</b></td>
+                <td><b>Universitas</b></td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jharmi</td>
+                <td>20</td>
+                <td>Universitas Mulawarman</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
+```
+- Semantic HTML yaitu menggunakan element HTML yang sesuai dengan kebutuhan konten. element semantik seperti `<header>`, `<aside>`, `<footer>`, `<article>`, dan sebagainya
+```
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Contoh Tampilan dengan Elemen Semantik</title>
+</head>
+
+<body>
+
+  <header>
+    <h1>Belajar Element Semantik di HTML</h1>
+  </header>
+
+  <nav>
+    <a href="#">Home</a> |
+    <a href="#">About</a> |
+    <a href="#">Contact</a>
+  </nav>
+
+  <article>
+    <h1>Tutorial Semantik Elemen untuk Pemula</h1>
+    <p>Semantic HTML yaitu menggunakan element HTML yang sesuai dengan kebutuhan konten. element semantik seperti header, aside, footer, article, dan sebagainya
+    </p>
+  </article>
+
+  <footer>
+    Copyright &copy; 2022 by Jharmii
+  </footer>
+
+</body>
+
+</html>
+```
+## CSS
+- CSS atau *Cascanding Style Sheet* adalah bahasa yang digunakan untuk mendesain halaman website
+### A. Struktur CSS
+ ```
+ .elementHTML{  
+    property : value }
+ ```
+
+
 
 
 
