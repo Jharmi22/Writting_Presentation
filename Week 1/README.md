@@ -303,7 +303,7 @@ Write (luas);
     - Looping, sebuah proses yang sama berulang-ulang
     - Recursive adalah pola pikir dalam algoritma yang memanggil method/function didalam sebuah function
 
-## JavaCript Dasar
+## JavaScript Dasar
 - Javascript adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website selain itu Javascript juga dapat membuat website menjadi interaktif dan dinamis
 - Javascript dijalankan melalui browser pada device setiap user, browser yang paling umum digunakan adalah mozilia dan google chrome
 - Syntax adalah sesuatu yang dapat diibaratkan sebagai kamus dan berperan dalam mengatur tata cara dalam bahasa pemrograman. Syntax digunakan untuk membuat statement program, instruksi untuk dijalankan atau dieksekusi oleh web browser dan compiler
