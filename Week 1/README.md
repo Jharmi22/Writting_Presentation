@@ -303,6 +303,137 @@ Write (luas);
     - Looping, sebuah proses yang sama berulang-ulang
     - Recursive adalah pola pikir dalam algoritma yang memanggil method/function didalam sebuah function
 
+## JavaCript Dasar
+- Javascript adalah bahasa pemograman yang sangat powerful yang digunakan untuk logic pada sebuah website selain itu Javascript juga dapat membuat website menjadi interaktif dan dinamis
+- Javascript dijalankan melalui browser pada device setiap user, browser yang paling umum digunakan adalah mozilia dan google chrome
+- Syntax adalah sesuatu yang dapat diibaratkan sebagai kamus dan berperan dalam mengatur tata cara dalam bahasa pemrograman. Syntax digunakan untuk membuat statement program, instruksi untuk dijalankan atau dieksekusi oleh web browser dan compiler
+- Contoh syntax JavaScript
+    - alert()
+    - prompt()
+    - confirm()
+- Console log adalah tempat untuk memeriksa logic pemograman web yang kita kembangkan, juga tempat untuk melakukan debugging (mengetahui error pada code) pada pemograman web
+- Comments adalah sintaks yang digunakan untuk memberi keterangan tentang suatu statement. Menggunakan bahasa inggris atau bahasa indonesia
+    - Single Comment `//`
+    - Multiline `/*  */`
+- Tipe data adalah klasifikasi yang kita berikan untuk berbagai macam data yang digunakan dalam programming
+- Ada 6 tipe data fundamental pada Javascript
+    ```
+    1. Number
+    2. String
+    3. Boolean
+    4. Null
+    5. Undefined
+    6. Object
+    ```
+- Variabel merupakan wadah atau tempat untuk menyimpan sebuah nilai 3 hal yang dapat dilakukan pada variabel:
+    - Membuat variabel dengan nama yang jelas dan menggambarkan tentang data tersebut
+    - Menyimpan dan mengupdate informasi/data yang disimpan
+    - Mendapatkan/menampilan data yang tersimpan
+- Ada 3 cara mendefinisikan sebuah variabel
+    - var
+    - let
+    - const
+- Aturan Penamaan Variabel
+    - Harus mendeskripsikan tentang data yang disimpan
+    - Tidak bisa menggunakan number pada awal nama variabel
+    - Gunakan camelcase untuk penamaan yang lebih dari 1 kata. 
+- Operator
+- Assignment Operator (=) digunakan untuk menyimpan sebuah nilai pada variabel contohnya : `let name = 'Jharmi'`
+- Mathematical Assignment Operator
+```
+  Contoh
+      let x = 5 ; 
+      x *= 2 ; 
+      console.log(x) // Output: 10
+```
+- Increment dan Decrement digunakan untuk menambah atau mengurangi sebesar 1 nilai
+```
+  Contoh
+      let a = 10;
+      a++
+      console.log(a) // output: 11
+```
+- Arithmetic operator adalah operator yang melibatkan operasi matematika.
+    Tambah (+)
+    Kuramg (-)
+    Perkalian (*)
+    Pembagian (/)
+    Modulus (%)
+- Comparism Operator digunakan untuk membandingkan suatu nilai
+    - Lebih kecil dari : <
+    - Lebih besar dari: >
+    - Lebih kecil atau sama dengan: <=
+    - Lebih besar atau sama dengan: >=
+    - Sama dengan: ===
+    - Tidak sama dengan: !==
+- Logical Operator digunakan untuk sebuah kondisi
+    - AND operator (&&)
+    - OR operator (||)
+    - NOT operator (!)
+- Conditional merupakan statement percabangan yang menggambarkan suatu kondisi. Conditional statement akan mengecek kondisi spesifik dan menjalankan perintah berdasarkan kondisi tersebut
+- Contoh Conditional IF Statement
+    ```
+    - ika cuaca cerah hari ini, maka kita akan pergi keluar
+    - Jika alarm berbunyi, maka kita akan bangun dari tidur
+    - Jika lelah, maka kita akan istirahat
+    - Jika lapar, kita akan makan
+    ```
+- IF ... ELSE Statement, Else akan mengeksekusi sebuah statement/code jika suatu kondisi bernilai FALSE
+    ```
+    var siswa = "andi";
+    if( siswa == "budi" ) {
+    document.write("<b>Budi</b>");
+    } else if( siswa == "joni" ) {
+    document.write("<b>Joni</b>");
+    } else if( siswa == "andi" ) {
+    document.write("<b>Andi</b>");
+    } else {
+    document.write("<b>Siswa tidak terdaftar</b>");
+    }
+    ```
+- IF ... ELSE IF Statement, Else … If statement dapat kita gunakan jika kita mempunyai berbagai kondisi.
+    ```
+    let num1 = 10
+    let num2 = 20
+
+    if (num1 = num2){
+    console.log(num1)
+    } else if (num1 > num2){
+    console.log(num1)
+    } else {
+    console.log(num2)
+    }
+    ```
+- Switch Case Conditional, digunakan jika kondisi dan percabangan terlalu banyak
+    ```
+    let warna = "kuning";
+        switch (warna){
+            case "hitam":
+                    console.log ("warna hitam");
+                    break;
+            case "merah":
+                    console.log ("warna merah");
+                    break;
+            case "hijau":
+                    console.log ("warna hijau");
+                    break;
+            default:
+                    console.log ("warna tidak terdeteksi");
+  	}
+    ```
+- Ternary Operator merupakan short-syntax dari statement if ... else
+    ```
+    let isNowSale = true; isNowSale ? console.log('Let's shopping now) : console.log('Shopping later);
+    ```
+- Looping adalah statement yang mengulang sebuah instruksi hingga kondisi terpenuhi atau jika kondisi stop/berhenti tercapai
+- Macam-macam looping
+    - FOR LOOP merupakan instruksi pengulangan yang dapat kita berikan pada program yang kita kembangkan.
+    - WHILE LOOP digunakan untuk menjalankan instruksi pengulangan kondisi bernilai TRUE.
+    - Do While digunakan untuk mengeksekusi kode setidaknya satu kali bahkan jika kondisi mengembalikan false.
+    - Nested loop adalah loop di dalam loop, yaitu kita sebut saja loop luar dan loop dalam. Jadi, konsepnya, iterasi pertama loop luar dijalankan terlebih dahulu, kemudian menunggu sampai loop dalam selesai, baru melanjutkan ke iterasi kedua loop luar yang juga menunggu sampai loop dalam selesai dijalankan lagi, dan diulangi terus sampai semua iterasi dijalankan.
+
+
+
 
 
 
