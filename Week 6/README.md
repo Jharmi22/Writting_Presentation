@@ -12,3 +12,32 @@
   - Memiliki DOM manipulation
   - Atribut class di tag HTML harus menggunakan className
   - Menggunakan curly braces untuk mengakses variabel JSX
+- React JS mempunyai fitur Virtual DOM, yaitu duplikasi dari real DOM yang sebenarnya   
+- Component pada React JS merupakan core pada React JS yang bersifat enkapsulasi atau pembungkus pada react dimana dalam 1 page dapat terdiri dari beberapa component
+- Cara membuat component :
+  - Menggunakan function
+  - Menggunakan class
+- Functional Component hanya bisa menggunakan props itu sebabnya function component disebut stateless component
+- Clasas Component dapat menggunakan props dan state
+- props & state digunakan untuk menghandle data di dalam component.
+- Props merupakan data yang dapat kita kirimkan dari suatu component ke component lain
+- State digunakan untuk menghandle data yang sifatnya berubah-ubah dan data yang bersifat private yang hanya dapat diakses oleh component tersebut saja
+- Stateless dan Statefull Component
+- Stateless Component adalah component yang tidak memiliki state internal sendiri, melainkan data yang didapatkan oleh komponen tersebut berasal dari luar
+- Statefull Component adalah component yang memiliki state sendiri sehingga stateful component harus menggunakan fungsi setState/useState di dalam tubuh fungsi
+- Lifecycle adalah siklus hidup pada React js
+- Struktur Lifecycle :
+  - Constructor: inisialisasi struktur data pada suatu component
+  - function : fungsi yg dibutuhkan pada komponen
+  - Render: proses return atau mengembalikan component asli 
+- Jenis - jenis Lifecycle Component Class:
+  - Mounting : Siklus ketika aplikasi sesaat sebelum component dibuka.
+    - componentDidMount adalah ketika memuat aplikasi sebelum di render
+    - componentWillMount adalah ketika aplikasi dimuat setelah proses render dilakukan.
+  - Updating : Ketika component di update atau diubah
+  - Unmount : Proses menghancurkan component yang sebelumnya di definisikan
+- Styling pada React JS 
+  - Styling Inline : menggunakan style ini, nilainya harus berupa object JavaScript
+  - Penulisan Nama properti menggunakan camelCased
+  - Stylesheet CSS
+  
