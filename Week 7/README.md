@@ -25,6 +25,10 @@ Header.propTypes = {
   age: PropTypes.number
 }
 ```
+## Async Action With Redux Thunk and Middleware
+- Redux-Thunk adalah sebuah middleware yang memungkinkan untuk memanggil pembuat aksi yang mengembalikan fungsi sebagai ganti objek aksi
+- Redux-Thunk solusi ketika menggunakan fetch data dari sebuah External API atau yang memiliki side effect (proses ashynchronous).
+
 ## Redux/State Management Redux
 - Redux digunakan untuk mengolah state management, Yaitu dengan menyimpan state di satu tempat, sehingga lebih mudah untuk di manage.
 - Kegunaan Redux:
@@ -32,7 +36,6 @@ Header.propTypes = {
   - Mengelola status aplikasi 
   - Memberi tahu pihak yang berkepentingan ketika status aplikasi berubah
 - Redux memungkinkan untuk mengelola status aplikasi di satu tempat dan membuat perubahan di aplikasi mudah untuk diprediksi dan dilacak
-- Redux thunk adalah middleware yang memungkinkan untuk memanggil pembuat aksi yang mengembalikan fungsi sebagai ganti objek aksi
 - Fungsi itu menerima metode pengiriman penyimpanan, yang kemudian digunakan untuk mengirim aksi sinkron di dalam isi fungsi setelah operasi asinkron selesai
 - Untuk penggunaan redux thunk <br>
   `npm install redux-thunk@2.3.0`
@@ -124,4 +127,3 @@ Header.propTypes = {
     })
     export default connect(mapStateToProps)(TodoApp);
     ```
-- 
